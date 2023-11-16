@@ -139,7 +139,7 @@ const contractABI = [
 
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
-const randomKey =  web3.utils.utf8ToHex('str');
+const randomKey =  '0xB3B3886F389F27BC1F2A41F0ADD45A84453F0D2A877FCD1225F13CD95953A86A';
 
 async function addDataToContract() {
   try {
@@ -167,7 +167,7 @@ async function getContractEvents() {
   try {
     const events = await contract.getPastEvents('DataAdded', {
       filter: { key: randomKey },
-      fromBlock: 500,
+      fromBlock: web3.eth.getBlockNumber() - 500,
       toBlock: 'latest',
     });
     console.log('События контракта:', events);
