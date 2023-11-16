@@ -1,5 +1,8 @@
 # HSE Blockchain
 
-[HW2](Storage.sol)
+[HW1](https://docs.google.com/document/d/1v9oM2eOT2ztTuBFBgVVKKz7cY93zFRa3NitLPf-rWWU/edit?usp=sharing)
+HW2:
+* [Storage.sol](Storage.sol)
+* Адрес контракта: 0x1A9e4b16468d154bEBbc36B361a5F09E3912447C
 
 Автор: Натрошвили Давид, ПИ, 3 курс, БПИ216
